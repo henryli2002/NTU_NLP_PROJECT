@@ -54,6 +54,7 @@ huggingface/
 # OS
 .DS_Store
 Thumbs.db
+._*
 
 # Logs
 *.log
