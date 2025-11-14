@@ -288,8 +288,8 @@ class TaskEvaluator:
                     predictions.extend(batch_predictions.cpu().numpy())
             predictions = np.array(predictions)
         else:
-        print(f"Extracting embeddings for {len(texts)} samples...")
-        embeddings = self.extractor.encode(texts, batch_size=self.batch_size)
+            print(f"Extracting embeddings for {len(texts)} samples...")
+            embeddings = self.extractor.encode(texts, batch_size=self.batch_size)
         
         # 使用简单的最近邻分类
         print("Computing predictions...")
