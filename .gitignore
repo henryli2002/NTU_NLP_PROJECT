@@ -42,7 +42,7 @@ env/
 # Results and Data
 results/
 data/
-models/
+models/trained/
 *.pkl
 *.h5
 *.ckpt
